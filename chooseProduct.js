@@ -1,5 +1,7 @@
 function chooseProduct(segment) {
-    // Add your solution here!
+  if (segment === "Beverage") return "Soda";
+  if (segment === "Fruit") return "Apple";
+  if (segment === "Hygiene") return "Soap";
 }
 
 module.exports = chooseProduct;
